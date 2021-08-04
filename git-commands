@@ -40,6 +40,43 @@ git show cid
 
 git push
 
+rm file-name
+git status
+git add file-name
+git commit -m "label" file-name
+git push
+
+touch a1 a2 a3 a4
+ls
+git status
+git add a1 a2 a3 a4
+or
+git add .
+or
+git add -A
+or
+git add *
+git status
+
+git commit -m "label" 
+git log
+git push
+
+mv old name (to change file name)
+==================================================
+
+git clone https://github.com/polarapu/batch70.git
+ls
+cd batch70
+touch prasad
+git status
+git add prasad
+git status
+git commit -m "label" prasad
+git status
+git push  ???
+
+
 
 
 
